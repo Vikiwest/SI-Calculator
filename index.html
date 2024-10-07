@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Interest Calculator</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="form">
+      <div class="textheading">
+        <h1>Simple Interest Calculator</h1>
+        <p>Calculate your simple interest Easily</p>
+      </div>
+
+      <div class="textheading2" >
+        <h2  id="interest">₦ 0 </h2>
+        <p>Simple Interest</p>
+      </div>
+
+      <div class="inputtext">
+        <input class="input1" type="text" id="principal" placeholder="Principal amount" />
+        
+        <input class="input2" type="text" id="rate" placeholder="Rate of interest (p.a)"/>
+      
+      
+        <input class="input3" type="text" id="time" placeholder="Time period (Yr)" />
+      </div>
+
+      <div class="button-container">
+        <button class="button1" id="calculate" onclick="calculateInterest()" >Calculate</button>
+        <button class="button2" id="reset" onclick="resetForm()">Reset</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
